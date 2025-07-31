@@ -1,1 +1,39 @@
-# fake-reviews-detector
+# Fake Reviews Detector
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [License](#license)
+
+## Project Overview
+
+This project is a fake review detector built using a pre-trained Transformer model. The goal is to classify hotel reviews as either fake or genuine. The model is fine-tuned on a specific dataset to achieve this classification task, and the process is detailed in the `Fake_Reviews_Detector.ipynb` Jupyter Notebook.
+
+## Features
+
+- **Transformer-based Model**: Utilizes a powerful pre-trained Transformer model for state-of-the-art text classification.
+- **Fine-tuning**: The model is fine-tuned on a custom dataset of hotel reviews.
+- **Comprehensive Workflow**: The notebook covers the entire machine learning pipeline, from data loading and preprocessing to model training, evaluation, and prediction.
+
+## Technologies Used
+
+- **Python**: The core language for the project.
+- **PyTorch**: The deep learning framework.
+- **Hugging Face Transformers**: Provides the pre-trained model and tokenizer.
+- **Pandas**: Used for data manipulation.
+- **scikit-learn**: For dataset splitting and performance metric calculations.
+
+## Getting Started
+
+### Prerequisites
+
+To run this project, you need to have Python installed along with the following libraries:
+
+```bash
+pip install torch transformers pandas scikit-learn
+
+
