@@ -7,7 +7,6 @@
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
-- [License](#license)
 
 ## Project Overview
 
@@ -35,5 +34,17 @@ To run this project, you need to have Python installed along with the following 
 
 ```bash
 pip install torch transformers pandas scikit-learn
+```
 
+### Running the Notebook
+
+- **Clone the repository (if applicable)**.
+- **Download the dataset:** Place your dataset of hotel reviews in a data/ directory. The notebook assumes a specific format, which you may need to adjust.
+- **Open the notebook:** Launch a Jupyter Notebook or JupyterLab environment.
+- **Execute cells:** Run the cells in Fake_Reviews_Detector.ipynb sequentially to train and evaluate the model.
+
+## Project Structure
+- Fake_Reviews_Detector.ipynb: The main notebook containing all the code for the fake review detection model.
+- data/: (Not included) This directory is where you should place your dataset.
+- model/: (Generated during runtime) This directory will store the saved trained model and its tokenizer.
 
